@@ -1,0 +1,24 @@
+* {
+    cursor: url(./assets/cursorkero.png), auto;
+}
+
+body{
+    height: 100vh;
+    
+}
+#root{
+    height: 100vh;
+    
+}
+
+.App{
+    height: 100vh;
+
+
+}
+
+
+
+
+
+

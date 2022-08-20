@@ -1,0 +1,177 @@
+.flipCard-sakura{
+    width: 13%;
+    margin:20px
+}
+.cardContainer-sakura {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+
+
+
+.flipCard-sakura:hover .cardContainer-sakura {
+    transform: rotateY(180deg);
+    
+}
+
+.card-front--sakura {
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+
+.card-front--sakura {
+    transform: rotateY(180deg);
+    position: absolute;
+    top: 0.6%;
+  }
+
+.card-front--sakura img {
+    border-radius: 20px;
+
+}
+
+.card-reverse--sakura img {
+    border-radius: 20px;
+
+}
+
+.flipCard-sakura{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nameCard_sakura{
+    width: 70%;
+    font-size:150%;
+    padding: 20px 30px 20px 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url("../../../assets/background_sakura.png");
+    color: palevioletred;
+    -webkit-text-fill-color: rgb(250, 219, 84);
+    -webkit-text-stroke-color: rgba(1, 1, 1, 0.833);
+    -webkit-text-stroke-width: 2px; 
+    border-radius: 30px;
+    border:solid rgb(211, 72, 118) 5px;
+    text-align: center;
+
+    
+}
+
+
+@media (max-width: 1201px) {
+    .flipCard-sakura{
+        width: 25%;
+    }
+
+
+
+}
+
+@media (max-width: 992px) {
+    .flipCard-sakura{
+        width: 28%;
+    }
+
+
+
+}
+
+@media (max-width: 776px){
+
+    .flipCard-sakura{
+        width: 25%;
+        font-size:100%
+    }
+
+
+
+
+}
+
+@media (max-width: 576px) {
+
+
+    .flipCard-sakura{
+        width: 40%;
+   
+        
+    }
+
+    .flipCard-clow{
+        width: 40%;
+   
+        
+    }
+
+    .nameCard_sakura{
+        font-size: 100%;
+        padding: 10px 20px 10px 20px;
+        -webkit-text-stroke-width: 1px;
+        
+        
+    }
+
+    .card-front--sakura img {
+        border-radius: 10px;
+    
+    }
+    
+    .card-reverse--sakura img {
+        border-radius: 10px;
+    
+    }
+
+
+}
+
+
+
+@media (max-width: 420px) {
+
+
+    .flipCard-sakura{
+        width: 36%;
+   
+        
+    }
+
+
+    .flipCard-sakura:first-child{
+        margin-left: 9000px;
+    }
+
+
+
+    .nameCard_sakura{
+        font-size: 100%;
+        padding: 10px 20px 10px 20px;
+        -webkit-text-stroke-width: 1.2px;
+        
+        
+    }
+
+    .card-front--sakura img {
+        border-radius: 10px;
+    
+    }
+    
+    .card-reverse--sakura img {
+        border-radius: 10px;
+    
+    }
+
+
+}
+
+
+
+
+

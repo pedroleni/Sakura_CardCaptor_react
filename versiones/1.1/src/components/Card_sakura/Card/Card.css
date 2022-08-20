@@ -1,0 +1,20 @@
+/* flipCard-clow */
+
+        /* cardContainer-clow
+
+         card-front--clow
+
+    card-reverse--clow */
+.card_Sakura{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 17vh;
+    margin-left: 5vh;
+    margin-right: 5vh;
+   
+}
+
+
+

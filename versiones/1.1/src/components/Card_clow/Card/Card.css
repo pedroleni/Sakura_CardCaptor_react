@@ -1,0 +1,31 @@
+/* flipCard-clow */
+
+        /* cardContainer-clow
+
+         card-front--clow
+
+    card-reverse--clow */
+.card{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 17vh;
+    margin-top: 0px;
+    margin-left: 5vh;
+    margin-right: 5vh;
+    
+}
+
+.titulo_clow img{
+    border-radius: 3%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo_clow{
+    width: 70%;
+}
+
+

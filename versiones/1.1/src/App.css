@@ -1,0 +1,21 @@
+img{
+    width: 100%;
+}
+
+html{
+    background-image: url(./assets/background.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-y: -40px;
+    
+    background-size: 100% 120%;
+    background-position-x: 0px;
+    
+    
+}
+
+
+
+
+
+
