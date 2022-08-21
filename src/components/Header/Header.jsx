@@ -1,6 +1,6 @@
 import React from "react";
 import portada from "../../assets/sakura_portada.gif";
-import clow from "../../assets/Reverso_clow.webp";
+import clow from "../../assets/Reverso_clow.png";
 import sakura from "../../assets/Reverso-sakura.jpeg";
 import pareja from "../../assets/pareja.png";
 import "./Header.css";
